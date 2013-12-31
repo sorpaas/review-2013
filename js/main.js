@@ -235,8 +235,8 @@ $(function(){
     }
     
     if($(el).attr("class").indexOf("fellowship2012") >= 0){
-      $(".yeartitle h1").css("color","#"+color2012).text("2012");
-      $(".yeartitle h2").css("color","#"+color2012).text("The Fellowship");
+      $(".yeartitle h1").css("color","#"+color2012).text("Numbers");
+      $(".yeartitle h2").css("color","#"+color2012).text("In Review");
       mapcurrentyear = "2012";
       interaction.hideTooltips();
       displayedMarkers = [];
