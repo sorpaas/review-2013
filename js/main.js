@@ -589,7 +589,7 @@ if (!Array.prototype.indexOf)
 
 setInterval(function() {
 	var current = new Date();
-	var newyear = new Date(2014, 1, 1, 0, 0, 0, 0);
+	var newyear = new Date(2014, 0, 1, 0, 0, 0, 0);
 	var str = "0";
 	if (current < newyear) {
 		var i = (newyear.getTime() - current.getTime()) / 1000;
