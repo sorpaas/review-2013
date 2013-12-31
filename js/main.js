@@ -586,3 +586,13 @@ if (!Array.prototype.indexOf)
     return -1;
   };
 }
+
+setInterval(function() {
+	var current = new Date();
+	var newyear = new Date(2014, 1, 1, 0, 0, 0, 0);
+	var str = "0";
+	if (current < newyear) {
+		var i = (newyear.getTime() - current.getTime()) / 1000;
+		$('.countdown').text(i|0);
+	}
+}, 1000)
